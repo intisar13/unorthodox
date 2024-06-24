@@ -1,0 +1,208 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header and Navbar */
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(3, 2, 28, 0.9);
+    box-shadow: 3px 5px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+    padding: 0;
+}
+
+nav ul li {
+    position: relative;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    line-height: 43px;
+    padding: 0 17px;
+    color: ivory;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid wheat;
+    box-shadow: 5px 10px 30px;
+}
+
+nav ul li a:active {
+    border-bottom: 2px solid rgb(49, 6, 101);
+    box-shadow: 5px 10px 30px;
+}
+
+.dropdown .dropbtn {
+    background-color: transparent;
+    color: ivory;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: aliceblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #d91515;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/* Services Box */
+.services-box {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent background */
+    border-radius: 10px;
+    padding: 40px;
+    margin: 150px auto 50px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.services-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+}
+
+.services-box p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.services-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.services-box li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* Footer */
+.footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 7px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Social Icons */
+.social-icons {
+    text-align: center;
+    margin-top: 2px;
+}
+
+.social-icon {
+    color: ivory;
+    margin: 0 2px;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #d91515;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin-left: 0;
+    }
+
+    .services-box {
+        padding: 20px;
+        margin: 100px 20px;
+    }
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar Links */
+nav ul li a:hover,
+nav ul li a:focus {
+    border-bottom: 2px solid wheat;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adjusted shadow for hover */
+}
+
+/* Dropdown Links */
+.dropdown-content a:hover {
+    background-color: #d91515;
+    color: white; /* Improved contrast on hover */
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    background-color: brown;
+    color: beige;
+    padding: 8px 30px;
+    margin: 30px 10px 10px;
+    border-radius: 30px;
+    transition: background-color 0.3s, transform 0.2s ease-out;
+}
+
+.btn:hover {
+    background-color: black;
+    transform: translateY(-2px); /* Lift effect on hover */
+}
