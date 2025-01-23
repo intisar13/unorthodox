@@ -21,7 +21,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: rgba(3, 2, 28, 0.9);
+    background-color: rgba(1, 1, 11, 0.9);
     box-shadow: 3px 5px 10px;
 }
 
@@ -149,11 +149,12 @@ nav ul li a:active {
 /* Content */
 .hcontent {
     width: 80%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
     left: 20%;
     top: 20%;
     transform: translate(-20%, 50%);
-    color: beige;
+    color: rgb(205, 205, 161);
     font-size: larger;
     padding-top: 5px;
 }
@@ -162,17 +163,19 @@ nav ul li a:active {
     font-size: larger;
     margin: 1px;
     letter-spacing: 2px;
+    font-weight: 900;
 }
 
 .hcontent h5 {
-    font-size: 5vb;
+    font-size: 7vb;
     letter-spacing: 1px;
+    font-style: italic;
 }
 
 /* Button */
 .btn {
     display: inline-block;
-    background-color: brown;
+    background-color: rgb(225, 18, 18);
     color: beige;
     padding: 8px 30px;
     margin: 30px 10px 10px;
@@ -276,7 +279,8 @@ nav ul li a:active {
 
 .gallery-item:hover {
     transform: translateY(-10px);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px rgba(17, 158, 193, 0.2);
+    
 }
 
 /* Media Queries */
@@ -316,8 +320,8 @@ nav ul li a:focus {
 }
 
 .btn:hover {
-    background-color: black;
-    transform: translateY(-2px); /* Lift effect on hover */
+    background-color: rgb(49, 11, 11);
+    transform: translateY(-10px); /* Lift effect on hover */
 }
 
   

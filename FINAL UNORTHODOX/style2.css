@@ -218,7 +218,7 @@ nav ul li a:focus {
 /* Buttons */
 .btn {
     display: inline-block;
-    background-color: brown;
+    background-color: rgb(104, 28, 28);
     color: beige;
     padding: 8px 30px;
     margin: 30px 10px 10px;
@@ -227,6 +227,6 @@ nav ul li a:focus {
 }
 
 .btn:hover {
-    background-color: black;
-    transform: translateY(-2px); /* Lift effect on hover */
+    background-color: rgb(159, 22, 232);
+    transform: translateY(-2000px); /* Lift effect on hover */
 }

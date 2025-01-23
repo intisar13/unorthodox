@@ -102,17 +102,17 @@ nav ul li a:active {
 }
 
 .services-box h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 20px;
     font-family: 'Montserrat', sans-serif;
-    color: #222;
+    color: #2b0a0a;
 }
 
 .services-box p {
     font-size: 1.2rem;
     margin-bottom: 20px;
     line-height: 1.8;
-    font-family: 'Open Sans', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .services-box ul {
